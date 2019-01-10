@@ -8,7 +8,11 @@
 
 import Foundation
 
-class Item {
+//inherits from encodable so all types must be standard types
+
+class Item: Codable {
+    
+    
     var title: String = ""
     var done: Bool = false
 }
